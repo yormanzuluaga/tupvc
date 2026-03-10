@@ -4,45 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Política de Privacidad | TuPVC Colombia</title>
+    <meta name="description" content="Tratamiento de datos personales de TuPVC - Cumplimiento Ley 1581 de 2012 Colombia.">
+    
     <style>
-        :root { --primary: #0056b3; --dark: #2c3e50; }
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f4f7f6; margin: 0; padding: 20px; }
-        .container { max-width: 800px; margin: 40px auto; }
-        .breadcrumb { font-size: 14px; margin-bottom: 20px; color: #7f8c8d; }
-        .breadcrumb a { color: var(--primary); text-decoration: none; }
-        .card { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-top: 5px solid var(--primary); }
-        h1 { color: var(--dark); text-align: center; font-size: 24px; text-transform: uppercase; }
-        h2 { color: var(--dark); border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 30px; }
-        .footer-note { font-size: 12px; color: #95a5a6; text-align: center; margin-top: 30px; border-top: 1px solid #eee; padding-top: 15px; }
+        :root {
+            --primary: #0056b3;
+            --secondary: #2c3e50;
+            --light-bg: #f8fafc;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #334155;
+            background-color: var(--light-bg);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        /* Estilo de la RUTA (Breadcrumbs) */
+        .breadcrumb {
+            background: #e2e8f0;
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 13px;
+            margin-bottom: 25px;
+            color: #64748b;
+        }
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .breadcrumb span { margin: 0 8px; }
+
+        /* Tarjeta Principal */
+        .policy-card {
+            background: var(--white);
+            padding: 45px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border-top: 8px solid var(--primary);
+        }
+
+        h1 {
+            color: var(--secondary);
+            font-size: 26px;
+            margin-top: 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .brand {
+            text-align: center;
+            display: block;
+            font-weight: bold;
+            color: var(--primary);
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--secondary);
+            font-size: 19px;
+            border-left: 5px solid var(--primary);
+            padding-left: 15px;
+            margin-top: 35px;
+        }
+
+        p, li {
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background: #f1f5f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+            border-right: 4px solid #cbd5e1;
+        }
+
+        .footer-legal {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .policy-card { padding: 25px; }
+            h1 { font-size: 20px; }
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <nav class="breadcrumb">
-        <a href="https://yormanzuluaga.github.io/tupvc/">Inicio</a> > <strong>Política de Privacidad</strong>
+        <a href="https://yormanzuluaga.github.io/tupvc/">Inicio</a> 
+        <span>/</span> 
+        <strong>Política de Privacidad</strong>
     </nav>
 
-    <div class="card">
-        <h1>Política de Tratamiento de Datos</h1>
-        <p style="text-align:center"><strong>TUPVC - Colombia</strong></p>
-        
-        <p>En cumplimiento de la <strong>Ley 1581 de 2012</strong>, informamos que los datos recolectados en <em>yormanzuluaga.github.io/tupvc/</em> serán tratados bajo los principios de legalidad y libertad.</p>
+    <article class="policy-card">
+        <h1>Política de Tratamiento de Datos Personales</h1>
+        <span class="brand">TUPVC - COLOMBIA</span>
+
+        <p>En <strong>TuPVC</strong>, nos tomamos en serio su privacidad. Esta política establece cómo protegemos su información de acuerdo con la <strong>Ley 1581 de 2012</strong> (Ley de Habeas Data) y sus decretos reglamentarios.</p>
 
         <h2>1. Responsable del Tratamiento</h2>
-        <p><strong>TuPVC</strong>, con domicilio en Colombia. <br>
-        Contacto para Habeas Data: <strong>[Tu Correo Aquí]</strong></p>
+        <p>El responsable del tratamiento de sus datos personales es <strong>TuPVC</strong>, con domicilio en Colombia. <br>
+        <strong>Contacto:</strong> [TU-CORREO@AQUI.COM] <br>
+        <strong>Sitio Web:</strong> https://yormanzuluaga.github.io/tupvc/</p>
 
-        <h2>2. Finalidad</h2>
-        <p>Los datos se usarán exclusivamente para procesar solicitudes de servicios de PVC, cotizaciones y contacto comercial directo.</p>
+        <h2>2. Finalidades del Tratamiento</h2>
+        <p>Sus datos personales (nombre, teléfono, correo) serán recolectados con las siguientes finalidades:</p>
+        <ul>
+            <li>Atención de solicitudes de cotización de productos de PVC.</li>
+            <li>Gestión de servicios de instalación y mantenimiento técnico.</li>
+            <li>Envío de información sobre el estado de sus pedidos.</li>
+            <li>Cumplimiento de normatividad contable y fiscal colombiana.</li>
+        </ul>
 
-        <h2>3. Sus Derechos</h2>
-        <p>Usted puede conocer, actualizar y rectificar sus datos en cualquier momento enviando un correo a nuestra línea de atención.</p>
-
-        <div class="footer-note">
-            Esta política cumple con las exigencias de la Superintendencia de Industria y Comercio de Colombia.
+        <div class="highlight-box">
+            <strong>Nota Importante:</strong> TuPVC informa que los datos de niños, niñas y adolescentes solo serán tratados bajo autorización de sus representantes legales y para fines estrictamente necesarios.
         </div>
-    </div>
+
+        <h2>3. Derechos del Titular</h2>
+        <p>Como titular de los datos, usted tiene derecho a:</p>
+        <ul>
+            <li>Conocer, actualizar y rectificar sus datos personales.</li>
+            <li>Revocar la autorización otorgada cuando lo considere necesario.</li>
+            <li>Solicitar la supresión de sus datos de nuestras bases de datos (siempre que no exista un mandato legal vigente).</li>
+        </ul>
+
+        <h2>4. Procedimiento para Consultas o Reclamos</h2>
+        <p>Si desea ejercer sus derechos de Habeas Data, puede enviar su solicitud al correo mencionado en el punto 1. Atenderemos su requerimiento en un máximo de 15 días hábiles.</p>
+
+        <div class="footer-legal">
+            Esta política cumple con la normativa de la Superintendencia de Industria y Comercio (SIC) de Colombia. <br>
+            &copy; 2026 TuPVC - Todos los derechos reservados.
+        </div>
+    </article>
 </div>
 
 </body>
